@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>High Dream – Travesseiro Inteligente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style/highdream.css" />
+</head>
+<body>
+
+<!-- 
+ ║  NAVBAR                                  ║
+ -->
+<header class="nav">
+  <div class="nav__inner">
+
+    <a href="#top" class="nav__brand">
+
+      <img src="Imagem/high-dream-logo.png" alt="High Dream" class="nav__logo" width="40" height="40" />
+      <span class="nav__name">high dream</span>
+    </a>
+
+    <nav class="nav__links">
+      <a href="#produto">Produto</a>
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+
+    <a href="#comprar" class="btn btn--primary">Comprar</a>
+  </div>
+</header>
+
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  HERO                                    ║
+     ╚══════════════════════════════════════════╝ -->
+<section id="top" class="hero">
+  <!-- estrelas decorativas (CSS puro) -->
+  <div class="stars" aria-hidden="true">
+    <span class="star" style="--x:6%;  --y:14%; --s:9px;  --d:0s"></span>
+    <span class="star" style="--x:16%; --y:32%; --s:7px;  --d:.5s"></span>
+    <span class="star" style="--x:30%; --y:10%; --s:11px; --d:.9s"></span>
+    <span class="star" style="--x:52%; --y:20%; --s:8px;  --d:.3s"></span>
+    <span class="star" style="--x:63%; --y:6%;  --s:10px; --d:1.1s"></span>
+    <span class="star" style="--x:78%; --y:16%; --s:6px;  --d:.6s"></span>
+    <span class="star" style="--x:88%; --y:38%; --s:9px;  --d:.2s"></span>
+    <span class="star" style="--x:74%; --y:50%; --s:7px;  --d:.8s"></span>
+    <span class="star" style="--x:42%; --y:58%; --s:10px; --d:.4s"></span>
+  </div>
+
+  <div class="container hero__grid">
+    <!-- Coluna esquerda -->
+    <div class="hero__text">
+      <span class="badge">🌙 TRAVESSEIRO INTELIGENTE</span>
+      <h1>Transforme suas noites. <span class="txt-blue">Desperte</span> seu melhor amanhã.</h1>
+      <p>Travesseiros inteligentes que unem conforto, tecnologia e sons relaxantes para melhorar a qualidade do sono e reduzir o estresse.</p>
+      <div class="hero__cta">
+        <a href="#comprar" class="btn btn--primary btn--lg">Comprar Agora</a>
+        <a href="#produto" class="btn btn--outline btn--lg">Conheça o Produto</a>
+      </div>
+      <div class="hero__proof">
+        <div class="avatars">
+          <span class="av"><img src="Imagem/user.webp" alt=""></span> 
+          <span class="av"><img src="Imagem/user.webp" alt=""></span>
+          <span class="av"><img src="Imagem/user.webp" alt=""></span>
+          <span class="av"><img src="Imagem/user.webp" alt=""></span>
+        </div>
+        <p>+2.000 sonhadores dormem melhor com High Dream</p>
+      </div>
+    </div>
+
+    <!-- Coluna direita — imagem do produto -->
+    <div class="hero__img-wrap">
+      <img src="Imagem/traveseiro.jpg" alt="Travesseiro High Dream sob luz da lua" class="hero__img" width="700" height="520" />
+
+      <!-- Badge flutuante -->
+      <div class="hero__badge">
+        <!-- Mesmo logo.png já declarado acima -->
+        <img src="Imagem/high-dream-logo.png" alt="" class="hero__badge-logo" width="48" height="48" />
+        <div>
+          <p class="hero__badge-sub">Sono profundo</p>
+          <p class="hero__badge-val">+87% de qualidade</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  PROBLEMA                                ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="section problems" id="problema">
+  <div class="container">
+    <p class="label">O PROBLEMA</p>
+    <h2 class="h2 h2--left">Você sofre com isso?</h2>
+    <p class="sub sub--left">Noites mal dormidas afetam tudo — o humor, a energia, a saúde. Veja se você se identifica.</p>
+
+    <div class="problem-cards">
+      <div class="pcard">
+        <span class="pcard__emoji">😴</span>
+        <h3>Dificuldade para dormir</h3>
+        <p>Horas rolando na cama sem conseguir relaxar.</p>
+      </div>
+      <div class="pcard">
+        <span class="pcard__emoji">😵</span>
+        <h3>Ansiedade noturna</h3>
+        <p>Pensamentos acelerados que não deixam você descansar.</p>
+      </div>
+      <div class="pcard">
+        <span class="pcard__emoji">📱</span>
+        <h3>Excesso digital</h3>
+        <p>Estímulos das telas roubam seu sono profundo.</p>
+      </div>
+      <div class="pcard">
+        <span class="pcard__emoji">🌙</span>
+        <h3>Sono leve</h3>
+        <p>Interrupções frequentes durante a noite.</p>
+      </div>
+      <div class="pcard">
+        <span class="pcard__emoji">😫</span>
+        <h3>Cansaço ao acordar</h3>
+        <p>Você dorme, mas não descansa de verdade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  SOLUÇÃO / PRODUTO                       ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="section solution bg-light-blue" id="produto">
+  <div class="container solution__grid">
+
+    <!-- Imagem / logo no card branco -->
+    <div class="solution__card">
+      <img src="Imagem/high-dream-logo.png" alt="High Dream – Nossa Solução" class="solution__img" width="440" height="440" />
+    </div>
+
+    <div class="solution__text">
+      <p class="label">NOSSA SOLUÇÃO</p>
+      <h2 class="h2">Conheça o <span class="txt-blue">High Dream</span></h2>
+      <p class="sub">Seu travesseiro inteligente combina tudo o que você precisa para uma noite verdadeiramente reparadora.</p>
+      <ul class="feat-list">
+        <li><span class="check-circle">✓</span> Espuma ergonômica</li>
+        <li><span class="check-circle">✓</span> Sons ambientais relaxantes</li>
+        <li><span class="check-circle">✓</span> Tecnologia antiestresse</li>
+        <li><span class="check-circle">✓</span> Design confortável</li>
+        <li><span class="check-circle">✓</span> Experiência personalizada</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  FUNCIONALIDADES                         ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="section" id="funcionalidades">
+  <div class="container">
+    <p class="label label--center">FUNCIONALIDADES</p>
+    <h2 class="h2 h2--center">Tudo pensado para o seu descanso</h2>
+
+    <div class="func-grid">
+
+      <!-- Bloco Sons (azul, ocupa 2/3) -->
+      <div class="func-card func-card--blue">
+        <h3>Sons Relaxantes</h3>
+        <p>Escolha o som perfeito para desacelerar a mente.</p>
+        <div class="sounds">
+          <span class="sound-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 16.2A4.5 4.5 0 0 0 17.5 8h-1.8A7 7 0 1 0 4 15"/><path d="M9 19a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1m4 6v-9"/></svg>
+            Chuva
+          </span>
+          <span class="sound-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 14a5 5 0 0 0-10 0"/><path d="M12 9V4"/><path d="M7.5 4.5 9 6"/><path d="M16.5 4.5 15 6"/><path d="M3 20a9 9 0 0 1 18 0H3Z"/></svg>
+            Floresta
+          </span>
+          <span class="sound-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg>
+            Ondas do mar
+          </span>
+          <span class="sound-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="2"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            Ruído branco
+          </span>
+          <span class="sound-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            Sons noturnos
+          </span>
+        </div>
+      </div>
+
+      <!-- Bloco Antiestresse (branco, ocupa 1/3) -->
+      <div class="func-card func-card--white">
+        <div class="func-icon-wrap">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6bbde0" stroke-width="1.8"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+        </div>
+        <h3>Sistema Antiestresse</h3>
+        <ul class="func-list">
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6bbde0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Frequências relaxantes
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6bbde0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Sons que desaceleram a mente
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6bbde0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Ambiente ideal para descanso
+          </li>
+        </ul>
+      </div>
+
+      <!-- Bloco Conforto (azul claro, linha inteira) -->
+      <div class="func-card func-card--light func-card--full func-card--row">
+        <div class="func-icon-wrap func-icon-wrap--white">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#6bbde0" stroke-width="1.8"><path d="M2 9V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4"/><path d="M2 13h20"/><path d="M2 17v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2"/><rect x="6" y="9" width="12" height="4" rx="1"/></svg>
+        </div>
+        <div>
+          <h3>Conforto Inteligente</h3>
+          <div class="comfort-row">
+            <span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6bbde0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Material respirável
+            </span>
+            <span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6bbde0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Suporte cervical
+            </span>
+            <span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6bbde0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Ajuste ergonômico
+            </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  BENEFÍCIOS                              ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="section bg-light-blue" id="beneficios">
+  <div class="container">
+    <p class="label label--center">BENEFÍCIOS</p>
+    <h2 class="h2 h2--center">O que você ganha?</h2>
+
+    <div class="benefit-cards">
+      <div class="bcard">
+        <div class="bcard__icon">🛏️</div>
+        <h3>Dorme mais rápido</h3>
+        <p>Adormeça em minutos.</p>
+      </div>
+      <div class="bcard">
+        <div class="bcard__icon">💓</div>
+        <h3>Menos estresse</h3>
+        <p>Mente calma para descansar.</p>
+      </div>
+      <div class="bcard">
+        <div class="bcard__icon">🧠</div>
+        <h3>Mais concentração</h3>
+        <p>Foco renovado todo dia.</p>
+      </div>
+      <div class="bcard">
+        <div class="bcard__icon">🔋</div>
+        <h3>Mais energia</h3>
+        <p>Acorde realmente disposto.</p>
+      </div>
+      <div class="bcard">
+        <div class="bcard__icon">😊</div>
+        <h3>Melhor humor</h3>
+        <p>Comece o dia leve e feliz.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  COMO FUNCIONA                           ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="section how">
+  <div class="container">
+    <p class="label label--center">COMO FUNCIONA</p>
+    <h2 class="h2 h2--center">Em 5 passos para a melhor noite da sua vida</h2>
+
+    <div class="steps">
+      <div class="step-line" aria-hidden="true"></div>
+      <div class="step"><div class="step__num">1</div><p>Escolha seu som favorito</p></div>
+      <div class="step"><div class="step__num">2</div><p>Ajuste o volume</p></div>
+      <div class="step"><div class="step__num">3</div><p>Deite e relaxe</p></div>
+      <div class="step"><div class="step__num">4</div><p>Adormeça naturalmente</p></div>
+      <div class="step"><div class="step__num">5</div><p>Acorde renovado</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  COMPARATIVO                             ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="section bg-light-blue" id="diferenciais">
+  <div class="container container--narrow">
+    <p class="label label--center">DIFERENCIAIS</p>
+    <h2 class="h2 h2--center">Por que High Dream?</h2>
+
+    <div class="table">
+      <div class="table__head">
+        <div class="th th--dark">Recurso</div>
+        <div class="th th--blue">High Dream</div>
+        <div class="th th--dark">Travesseiro comum</div>
+      </div>
+      <div class="table__row"><span>Sons relaxantes</span>        <span class="yes">✓</span><span class="no">✗</span></div>
+      <div class="table__row"><span>Tecnologia antiestresse</span><span class="yes">✓</span><span class="no">✗</span></div>
+      <div class="table__row"><span>Experiência personalizada</span><span class="yes">✓</span><span class="no">✗</span></div>
+      <div class="table__row"><span>Conforto ergonômico</span>    <span class="yes">✓</span><span class="yes">✓</span></div>
+      <div class="table__row"><span>Auxílio ao sono</span>        <span class="yes">✓</span><span class="no">✗</span></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  DEPOIMENTOS                             ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="section" id="depoimentos">
+  <div class="container">
+    <p class="label label--center">DEPOIMENTOS</p>
+    <h2 class="h2 h2--center">Quem dorme com High Dream conta</h2>
+
+    <div class="testimonials">
+
+      <div class="tcard">
+        <div class="stars">★★★★★</div>
+        <p>"Passei a dormir muito melhor após usar a High Dream. Sinto que finalmente descanso de verdade."</p>
+        <div class="tcard__author">
+          <img src="Imagem/user.webp" alt="Mariana S." class="tcard__av" width="40" height="40" />
+          <strong>Mariana S.</strong>
+        </div>
+      </div>
+
+      <div class="tcard">
+        <div class="stars">★★★★★</div>
+        <p>"Os sons da chuva me ajudam a relaxar em poucos minutos. Virou parte da minha rotina."</p>
+        <div class="tcard__author">
+          <img src="Imagem/user.webp" alt="Rafael T." class="tcard__av" width="40" height="40" />
+          <strong>Rafael T.</strong>
+        </div>
+      </div>
+
+      <div class="tcard">
+        <div class="stars">★★★★★</div>
+        <p>"Minha ansiedade noturna diminuiu bastante. Acordo mais leve e disposta todos os dias."</p>
+        <div class="tcard__author">
+          <img src="Imagem/user.webp" alt="Camila O." class="tcard__av" width="40" height="40" />
+          <strong>Camila O.</strong>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  SOBRE                                   ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="section about" id="sobre">
+  <div class="container container--narrow about__inner">
+    <p class="label label--light">SOBRE A HIGH DREAM</p>
+    <h2>Nossa missão é o seu descanso</h2>
+    <p>A High Dream nasceu com a missão de ajudar pessoas a recuperarem a qualidade do sono através da união entre conforto, tecnologia e bem-estar. Acreditamos que dormir bem é a base para viver melhor.</p>
+    <a href="#comprar" class="btn btn--white btn--lg">Garanta o seu High Dream</a>
+  </div>
+</section>
+
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  FOOTER                                  ║
+     ╚══════════════════════════════════════════╝ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <!-- Mesmo logo.png já declarado acima -->
+      <img src="Imagem/high-dream-logo.png" alt="High Dream" class="footer__logo" width="44" height="44" />
+      <div>
+        <p class="footer__name">high dream</p>
+        <p class="footer__sub">TRAVESSEIROS</p>
+      </div>
+    </div>
+    <p class="footer__tagline">Dormir melhor, viver melhor.</p>
+    <p class="footer__copy">© <span id="yr"></span> High Dream</p>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
